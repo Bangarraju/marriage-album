@@ -1,0 +1,20 @@
+export const styles = {
+    page: { fontFamily: 'Inter, system-ui, sans-serif', minHeight: '100vh', background: 'linear-gradient(180deg,#fffaf0,#fff)', color: '#111', display: 'flex', flexDirection: 'column' },
+    header: { textAlign: 'center', padding: '2rem 1rem' },
+    title: { margin: 0, fontSize: '1.8rem' },
+    subtitle: { marginTop: 8, color: '#666', fontSize: '0.95rem' },
+    main: { display: 'grid', gridTemplateColumns: '1fr', gap: 24, padding: '1rem', maxWidth: 1100, margin: '0 auto', width: '100%' },
+    gallery: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(160px,1fr))', gap: 12 },
+    card: { height: 180, backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: 12, boxShadow: '0 8px 24px rgba(0,0,0,0.08)' },
+    formSection: { display: 'flex', justifyContent: 'center' },
+    formCard: { width: '100%', maxWidth: 420, padding: 18, borderRadius: 12, background: 'rgba(255,255,255,0.95)', boxShadow: '0 10px 30px rgba(0,0,0,0.06)' },
+    label: { display: 'block', marginTop: 10, color: '#444', fontSize: '0.9rem' },
+    input: { width: '100%', padding: '10px 12px', marginTop: 6, borderRadius: 8, border: '1px solid #e6e6e6', fontSize: 15, boxSizing: 'border-box' },
+    actions: { display: 'flex', gap: 8, marginTop: 12, flexDirection: 'column' },
+    primaryButton: { padding: '12px 14px', borderRadius: 10, border: 'none', background: 'linear-gradient(90deg,#ff7a7a,#ffb47a)', color: '#fff', cursor: 'pointer', fontSize: '1rem' },
+    ghostButton: { padding: '12px 14px', borderRadius: 10, border: '1px solid #ddd', background: 'transparent', cursor: 'pointer', fontSize: '1rem' },
+    luckyButton: { padding: '12px 14px', borderRadius: 10, background: 'linear-gradient(90deg,#7aff9b,#7ac7ff)', border: 'none', cursor: 'pointer', fontSize: '1rem', color: '#111', fontWeight: 600 },
+    footer: { textAlign: 'center', padding: '2rem 1rem', color: '#666', fontSize: '0.85rem' },
+    overlay: { position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', background: 'rgba(0,0,0,0.6)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 999 },
+    winnerCard: { background: '#fff', padding: '2rem', borderRadius: 16, textAlign: 'center', maxWidth: 340, width: '90%', boxShadow: '0 10px 30px rgba(0,0,0,0.3)' }
+};
