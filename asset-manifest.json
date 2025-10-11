@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/marriage-album/static/css/main.b66235b8.css",
+    "main.js": "/marriage-album/static/js/main.c237fa72.js",
+    "static/js/453.81f383cb.chunk.js": "/marriage-album/static/js/453.81f383cb.chunk.js",
+    "static/media/logo.svg": "/marriage-album/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/marriage-album/index.html",
+    "main.b66235b8.css.map": "/marriage-album/static/css/main.b66235b8.css.map",
+    "main.c237fa72.js.map": "/marriage-album/static/js/main.c237fa72.js.map",
+    "453.81f383cb.chunk.js.map": "/marriage-album/static/js/453.81f383cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b66235b8.css",
+    "static/js/main.c237fa72.js"
+  ]
+}
